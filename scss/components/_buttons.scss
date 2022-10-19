@@ -2,7 +2,6 @@
 /*              Buttons                          */
 /* ============================================= */
 
-
 .btn {
     margin-top: 15px;
     width: 100%;
@@ -15,20 +14,41 @@
 
 .default {
     background-color: $light-blue;
+
+    &:hover {
+        background-color: lighten($light-blue, 20%);
+    }
 }
 
 .error {
     background-color: $tomato;
+
+    &:hover {
+        background-color: lighten($tomato, 20%);
+    }
 }
 
 .info {
     background-color: $purple;
+
+    &:hover {
+        background-color: lighten($purple, 20%);
+    }
 }
 
 .success {
     background-color: $green;
+
+    &:hover {
+        background-color: lighten($green, 20%);
+    }
+
 }
 
 .warning {
     background-color: $orange;
+
+    &:hover {
+        background-color: lighten($orange, 20%);
+    }
 }
