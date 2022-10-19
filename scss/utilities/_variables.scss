@@ -1,7 +1,11 @@
-/* Colors */
+/* Color defines*/
 
 $light-blue: #51ddfc;
 $green: #63cc82;
 $tomato: #e4757a;
 $orange: #fd7856;
 $purple: #927bc1;
+
+//Media query breakpoint
+
+$breakpoint-desktop: '(min-width: 768px)';
